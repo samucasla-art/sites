@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <h1>Amazonia</h1>
+        <h1>Samuel</h1>
 
         <nav><!-- Selecao de navegacao -->
             <ul><!-- lista nao ordenada menu -->
@@ -27,12 +27,12 @@
         <h2>Sobre mim</h2>
 
         <img src="https://pbs.twimg.com/media/GNn8r7hXUAAtyMo.jpg" alt="cavalo" title="cavalo juan">
-           
+
         <article>
 
-        <p>
-            ola meu nome e samuel e to aprendendo a fazer programa
-        </p>
+            <p>
+                ola meu nome e samuel e to aprendendo a fazer programa
+            </p>
 
         </article>
 
@@ -73,12 +73,43 @@
 
             <p>Tem um projetos em mente? entre em Contato</p>
 
-            <address>
-                E-mail: <a href="mailto:samuca.sla@gmail.com">samuca.sla@gmail.com</a> <br>
+            <form action="">
 
-                Telefone: <a href="tel:4002-8922">4002-8922</a>
 
-            </address>
+                <label for="nome">nome: </label>
+                <input type="text" id="nome" nome="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="emai" nome="email" required><br>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" nome="telefone" required><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">outros</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" rows="20" required></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" nome="inscricao">
+                <label for="inscricao">Dejesa receber porra nenhuma?</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+                <input type="date" id="sua data" nome="sua"> 
+               
+
+            </form>
+
 
         </section>
 
